@@ -35,7 +35,7 @@ play_game = True
 # Loop
 while play_game: 
     # Get user input, .lower() to avoid errors
-    user_choice = input("\nEnter your move: Rock, Paper, or Scissors (or 'quit' to stop playing): ").lower()
+    user_choice = input("\nEnter your move (Rock, Paper, Scissors, quit to exit game):  ").lower()
     # If choice is quit, break game
     if user_choice == 'quit':
         break
