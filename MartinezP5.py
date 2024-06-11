@@ -75,7 +75,7 @@ while play_game:
         print(result)
         print(f"Rounds: {rounds}, User Wins: {user_wins}, Computer Wins: {computer_wins}, Ties: {ties}")
 
-        # Print results after every 3 rounds 
+        # Print round summary after every 3 rounds 
         if rounds % 3 == 0:
             print("\nRound Results: ")
             for result in game_results[-3:]:
