@@ -7,10 +7,13 @@
 import random 
 
 # Welcome message
+print("Welcome! This program is a rock paper scissors game!")
 
 # Initialize empty list for storing results
+game_results = []
 
 # Define choices and victors
+choices = ('rock', 'paper', 'scissors')
 
 # Determine the winner 
 
